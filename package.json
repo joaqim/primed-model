@@ -1,9 +1,9 @@
 {
-  "name": "primed-model",
-  "version": "1.0.4",
+  "name": "@joaqim/primed-model",
+  "version": "1.0.5",
   "description": "TypeScript model management",
-  "main": "dist/app.js",
-  "types": "dist/app.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "npx tsc -p ./tsconfig.json"
@@ -15,7 +15,9 @@
     "cyclic",
     "self-referencing"
   ],
-  "author": "cuzox",
+  "contributors": [
+    "cuzox"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/reflect-metadata": "^0.1.0",
@@ -27,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuzox/primed-model.git"
+    "url": "git+https://github.com/joaqim/primed-model.git"
   },
   "bugs": {
-    "url": "https://github.com/cuzox/primed-model/issues"
+    "url": "https://github.com/joaqim/primed-model/issues"
   },
-  "homepage": "https://github.com/cuzox/primed-model#readme"
+  "homepage": "https://github.com/joaqim/primed-model#readme"
 }
